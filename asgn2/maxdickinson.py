@@ -59,9 +59,11 @@ if __name__ == '__main__':
     with open(fil,'r') as fil:
         # #a=file.readlines()
         a=fil.readlines()
+        
         nodes=[]
         all=[]
         agg=[]
+        st=[]
         first=0
         count=1
         for line in a:
@@ -69,6 +71,7 @@ if __name__ == '__main__':
             line2=line.rstrip("\n")
             nums= line2.rsplit(' ')
             n=nums[0:3]
+            st.append(n)
             if len(n)==1:
                 graphs=n
                 count+=1
