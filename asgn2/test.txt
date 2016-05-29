@@ -1,0 +1,5 @@
+2
+46
+Here are two paragraphs that have a lot of words in common, and are both printed with the same width. However at a certain point they have different word lengths, and that affects how words in previous lines are arranged.
+46
+Here are two paragraphs that have a lot of words in common, and are both printed with the same width. However at a certain point they have different word lengths, namely right here, and that affects how words in previous lines are arranged.
